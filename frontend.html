@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Client Service Platform</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            padding-top: 70px;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .service-card {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">ServiceHub</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sevicers.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="providers.html">Providers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-primary" href="registration.html">Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Jumbotron -->
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-4">Welcome to ServiceHub</h1>
+            <p class="lead">Find the best service providers near you.</p>
+            <a class="btn btn-primary btn-lg" href="registration.html" role="button">Get Started</a>
+        </div>
+    </div>
+
+    <!-- Service Section -->
+    <div class="container">
+        <h2 class="text-center mb-4">Featured Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <img src="Plumbing Services.jpeg" class="card-img-top" alt="Plumbing">
+                    <div class="card-body">
+                        <h5 class="card-title">Plumbing Services</h5>
+                        <p class="card-text">Get plumbing repairs and installations done by professionals.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <img src="Electrical Services.jpeg" class="card-img-top" alt="Electrician">
+                    <div class="card-body">
+                        <h5 class="card-title">Electrical Services</h5>
+                        <p class="card-text">Expert electricians for wiring, installation, and repair services.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <img src="Cleaning Services.jpeg" class="card-img-top" alt="Cleaning">
+                    <div class="card-body">
+                        <h5 class="card-title">Cleaning Services</h5>
+                        <p class="card-text">Professional cleaners for homes, offices, and industrial spaces.</p>
+                        <a href="providers.html" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Providers Section -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Our Top Service Providers</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="vikas.jpeg" class="card-img-top" alt="Provider 1">
+                    <div class="card-body">
+                        <h5 class="card-title">vikas </h5>
+                        <p class="card-text">Expert plumber with 10+ years of experience.</p>
+                        <a href="providers.html" class="btn btn-outline-primary">View Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="krish.jpeg" class="card-img-top" alt="Provider 2">
+                    <div class="card-body">
+                        <h5 class="card-title">krish</h5>
+                        <p class="card-text">Professional electrician specializing in residential services.</p>
+                        <a href="providers.html" class="btn btn-outline-primary">View Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="mike.jpeg" class="card-img-top" alt="Provider 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Mike </h5>
+                        <p class="card-text">Reliable cleaning services with a focus on eco-friendly solutions.</p>
+                        <a href="#" class="btn btn-outline-primary">View Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="kushi.jpeg" class="card-img-top" alt="Provider 4">
+                    <div class="card-body">
+                        <h5 class="card-title">kushi </h5>
+                        <p class="card-text">Specialist in home cleaning with a 5-star rating.</p>
+                        <a href="#" class="btn btn-outline-primary">View Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">About Us</h5>
+                    <p>
+                        ServiceHub connects users with trusted local service providers to help you with your daily tasks and professional needs.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark">Home</a></li>
+                        <li><a href="#" class="text-dark">Services</a></li>
+                        <li><a href="#" class="text-dark">Providers</a></li>
+                        <li><a href="#" class="text-dark">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Follow Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark">Facebook</a></li>
+                        <li><a href="#" class="text-dark">Twitter</a></li>
+                        <li><a href="#" class="text-dark">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3 bg-dark text-light">
+            © 2024 ServiceHub
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, jQuery, and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
